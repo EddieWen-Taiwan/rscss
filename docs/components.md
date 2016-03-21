@@ -1,17 +1,17 @@
-Components
-==========
+元件 (Components)
+----------
 
-Think in components. Consider each piece of your UI as an individual "component".
+以"元件"為基礎，來建構出完整的畫面。
 
 ![](images/component-example.png)
 
-## Naming components
-Components will be named with **at least two words**, separated by a dash. Examples of components:
+## 元件命名
+每個元件的名稱 **至少為兩個字**，其中以破折號(-)相連，如：
 
-  * A like button (`.like-button`)
-  * A search form (`.search-form`)
-  * A news article card (`.article-card`)
+ * 按讚按鈕	(`.like-button`)
+ * 搜尋框	(`.search-form`)
+ * 文章卡片	(`.article-card`)
 
-How do you write a component exactly? Let's learn about Elements.
+如何用"元素"來建構出一個元件？
 [Continue →](elements.md)
 <!-- {p:.pull-box} -->
