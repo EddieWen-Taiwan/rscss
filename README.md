@@ -1,10 +1,6 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
-<!-- {h5: style='display:none'} -->
+<!-- ##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)** -->
 
-----
-<!-- {hr: style='display:none'} -->
-
-# rscss
+# rscss 繁中翻譯
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
