@@ -2,8 +2,8 @@
 
 - [rscss](../README.md)
 - **Components**
-  - [About components](components.md)
-  - [Elements](elements.md)
+  - [元件](components.md)
+  - [元素](elements.md)
   - [Variants](variants.md)
   - [Nested components](nested-components.md)
   - [Layouts](layouts.md)
