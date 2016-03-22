@@ -1,8 +1,8 @@
-# Nested components
+# 巢狀元件 (Nested components)
 
 ![](images/component-nesting.png)
 
-```html
+~~~html
 <div class='article-link'>
   <div class='vote-box'>
     ...
@@ -10,56 +10,72 @@
   <h3 class='title'>...</h3>
   <p class='meta'>...</p>
 </div>
-```
+~~~
 
+有時勢必得用上巢狀元件，接下來解釋該如何組織 CSS 類別。
+
+<!--
 Sometimes it's necessary to nest components. Here are some guidelines for doing that.
+-->
 
-## Variants
+## 變形
+當元件內需要有另一個元件存在時，就形成巢狀元件。這時最好避免將 CSS 寫在父類別下的子類別中。
+
+<!--
 A component may need to appear a certain way when nested in another component. Avoid modifying the nested component by reaching into it from the containing component.
+-->
 
-```scss
+~~~scss
 .article-header {
-  > .vote-box > .up { /* ✗ avoid this */ }
+  > .vote-box > .up { /* ✗ 避免此寫法 */ }
 }
-```
+~~~
 
-  Instead, prefer to add a variant to the nested component and apply it from the containing component.
+可以選擇以變形(Variant)的方式來修改父元件下的子元件。
 
-```html
+<!--
+Instead, prefer to add a variant to the nested component and apply it from the containing component.
+-->
+
+~~~html
 <div class='article-header'>
   <div class='vote-box -highlight'>
     ...
   </div>
   ...
 </div>
-```
+~~~
 
-```scss
+~~~scss
 .vote-box {
   &.-highlight > .up { /* ... */ }
 }
-```
+~~~
 
-## Simplifying nested components
-Sometimes, when nesting components, your markup can get dirty:
+## 簡化巢狀元件
+以上述方式進行時，很有可能讓你的標籤變得過於複雜：
 
-```html
+<!-- Sometimes, when nesting components, your markup can get dirty: -->
+
+~~~html
 <div class='search-form'>
   <input class='input' type='text'>
   <button class='search-button -red -large'></button>
 </div>
-```
+~~~
 
-You can simplify this by using your CSS preprocessor's `@extend` mechanism:
+可以通過 CSS 的預處理器 - `@extend` 來簡化這種情況：
 
-```html
+<!-- You can simplify this by using your CSS preprocessor's `@extend` mechanism: -->
+
+~~~html
 <div class='search-form'>
   <input class='input' type='text'>
   <button class='submit'></button>
 </div>
-```
+~~~
 
-```scss
+~~~scss
 .search-form {
   > .submit {
     @extend .search-button;
@@ -67,8 +83,9 @@ You can simplify this by using your CSS preprocessor's `@extend` mechanism:
     @extend .search-button.-large;
   }
 }
-```
+~~~
 
-What about repeating elements like lists? Learn about Layouts.
+該如何處理如清單這樣的重複元件？佈局(Layouts)
 [Continue →](layouts.md)
-<!-- {p:.pull-box} -->
+
+<!-- What about repeating elements like lists? Learn about Layouts. -->
