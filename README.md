@@ -11,8 +11,8 @@ Reasonable System for CSS Stylesheet Structure.<br>
 A set of simple ideas to guide your process of building maintainable CSS.
 -->
 
-# 介紹
-------------
+介紹
+----
 
 一份龐大的樣式表容易逐漸變得笨重、不易維護，最終導致下列結果：
 
