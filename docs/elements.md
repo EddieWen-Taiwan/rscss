@@ -19,8 +19,8 @@
 
 ~~~scss
 .article-card {
-  .title     { /* okay */ }
-  > .author  { /* ✓ better */ }
+  .title     { /* 尚可 */ }
+  > .author  { /* ✓ 推薦 */ }
 }
 ~~~
 
@@ -41,11 +41,11 @@
 
 ~~~scss
 .article-card {
-  > h3    { /* ✗ avoid */ }
-  > .name { /* ✓ better */ }
+  > h3    { /* ✗ 不宜 */ }
+  > .name { /* ✓ 推薦 */ }
 }
 ~~~
 
 相同的元件常常在不同地方會有一些改變的需要，這時可以使用變形(Variants)。
 [Continue →](variants.md)
-<!-- {p:.pull-box} -->
+
