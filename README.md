@@ -2,16 +2,27 @@
 
 # rscss 繁中翻譯
 
-<!-- {h1:.massive-header.-with-tagline} -->
-
 > Styling CSS without losing your sanity
 
+這是一套有邏輯系統的 CSS 樣式表結構，能夠幫助你建構出一份易於維護修改的 CSS。
+
+<!--
 Reasonable System for CSS Stylesheet Structure.<br>
 A set of simple ideas to guide your process of building maintainable CSS.
+-->
 
-Introduction
+# 介紹
 ------------
 
+一份龐大的樣式表容易逐漸變得笨重、不易維護，最終導致下列結果：
+
+* "這個 CSS 類別是在...？"
+* "還有在用到這 CSS 類別嗎？"
+* "如果這時再新增一個 `green` 類別，會發生衝突嗎？"
+
+**rscss** 正是為了解決以上問題而發展出來的，它並不是一個 CSS 框架，它是一套有跡可循的邏輯系統，幫助開發者建立出個可擴增維護的網頁及應用程式。
+
+<!--
 Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into these common pitfalls:
 
 * "What does this class mean?"
@@ -19,22 +30,21 @@ Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into th
 * "If I make a new class `green`, will there be a clash?"
 
 **rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
+-->
 
-Let's get started by learning about components.
+開始學習"元件(Components)"
 [Continue →](docs/components.md)
-<!-- {p:.pull-box} -->
+
+<!-- Let's get started by learning about components. -->
 
 ----
-<!-- {hr: style='display:none'} -->
 
 **rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
-<!-- {p: style='display:none'} -->
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
 > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
 > Twitter [@rstacruz](https://twitter.com/rstacruz)
-<!-- {blockquote: style='display:none'} -->
 
 [MIT]: http://mit-license.org/
 [contributors]: http://github.com/rstacruz/rscss/contributors
