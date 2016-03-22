@@ -1,6 +1,6 @@
 # 元素 (Elements)
 
-數個元素構成一個元件(Component)。
+由數個元素構成一個元件(Component)。
 
 ![](images/component-elements.png)
 
@@ -15,7 +15,7 @@
 ~~~
 
 ## 選擇元素
-建議盡可能地使用 `>` 子元素選擇器，比起後代選擇器(descendant selectors)，這在遇上巢狀元件時，可避免子元素衝突的發生，而在效能上也有著比較好的表現。
+建議盡可能地使用 `>` 子元素選擇器，相較於後代選擇器(descendant selectors)，這在遇上巢狀元件時，可避免子元素衝突的發生，而在效能上也有著比較好的表現。
 
 ~~~scss
 .article-card {
