@@ -4,7 +4,7 @@
 - **Components**
   - [元件](components.md)
   - [元素](elements.md)
-  - [Variants](variants.md)
+  - [變形](variants.md)
   - [Nested components](nested-components.md)
   - [Layouts](layouts.md)
   - [Helpers](helpers.md)
