@@ -27,7 +27,7 @@ A component may need to appear a certain way when nested in another component. A
 
 ~~~scss
 .article-header {
-  > .vote-box > .up { /* ✗ 避免此寫法 */ }
+  > .vote-box > .up { /* ✗ 不宜 */ }
 }
 ~~~
 
