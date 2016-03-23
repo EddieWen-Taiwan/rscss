@@ -9,7 +9,7 @@
   - [佈局 (Layouts)](layouts.md)
   - [Helpers](helpers.md)
 - **Structure**
-  - [CSS Structure](css-structure.md)
+  - [CSS 結構](css-structure.md)
 - **Notes**
   - [Pitfalls](pitfalls.md)
   - [Apprehensions](apprehensions.md)
