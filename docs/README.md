@@ -6,7 +6,7 @@
   - [元素](elements.md)
   - [變形](variants.md)
   - [巢狀元件](nested-components.md)
-  - [Layouts](layouts.md)
+  - [佈局](layouts.md)
   - [Helpers](helpers.md)
 - **Structure**
   - [CSS Structure](css-structure.md)
