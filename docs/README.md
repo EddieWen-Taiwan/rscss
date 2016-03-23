@@ -7,7 +7,7 @@
   - [變形 (Variants)](variants.md)
   - [巢狀元件 (Nested Components)](nested-components.md)
   - [佈局 (Layouts)](layouts.md)
-  - [Helpers](helpers.md)
+  - [輔助類別 (Helpers)](helpers.md)
 - **Structure**
   - [CSS 結構](css-structure.md)
 - **Notes**
