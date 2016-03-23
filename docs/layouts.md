@@ -15,7 +15,7 @@ Components should be made in a way that they're reusable in different contexts. 
 * Margins (`margin`)
 * Dimensions (`width`, `height`)
 
-## 固定尺寸
+## 例外
 
 除了那些本應該具有固定長寬的物件，如頭像、標誌。
 
