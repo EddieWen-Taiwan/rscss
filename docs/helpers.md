@@ -15,7 +15,7 @@ For general-purpose classes meant to override values, put them in a separate fil
 
 ## 輔助類別命名
 
-這類類別命名時皆以底線 `_` 起頭，這能更容易分辨它們與一般類別的不同。而底線的存在，也讓這程式碼看起來有一點點的粗糙，同時也是提醒開發者，過度使用這些類別不是太好的選擇。
+這類類別命名時皆以底線 `_` 起頭，這能更容易分辨它們與一般類別的不同。而底線的存在，也讓這程式碼看起來有一點點的粗糙，也是提醒開發者，過度使用這些類別不是太好的選擇。
 
 <!--
 Prefix classnames with an underscore. This will make it easy to differentiate them from modifiers defined in the component. Underscores also look a bit ugly which is an intentional side effect: using too many helpers should be discouraged.

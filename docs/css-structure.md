@@ -9,13 +9,13 @@
 ~~~scss
 /* css/components/search-form.scss */
 .search-form {
-  > .button { /* ... */ }
-  > .field { /* ... */ }
-  > .label { /* ... */ }
+	> .button { /* ... */ }
+	> .field { /* ... */ }
+	> .label { /* ... */ }
 
-  // variants
-  &.-small { /* ... */ }
-  &.-wide { /* ... */ }
+	/* variants */
+	&.-small { /* ... */ }
+	&.-wide { /* ... */ }
 }
 ~~~
 
@@ -38,16 +38,16 @@
 ~~~scss
 /* ✗ 不宜: 三層的巢狀結構 */
 .image-frame {
-  > .description {
-    /* ... */
+	> .description {
+		/* ... */
 
-    > .icon { /* ... */ }
-  }
+		> .icon { /* ... */ }
+	}
 }
 
 /* ✓ 推薦: 至多到第兩層巢狀結構 */
 .image-frame {
-  > .description { /* ... */ }
-  > .description > .icon { /* ... */ }
+	> .description { /* ... */ }
+	> .description > .icon { /* ... */ }
 }
 ~~~

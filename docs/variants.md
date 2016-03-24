@@ -1,44 +1,47 @@
 # 變形 (Variants)
 
-元件及元素可能會有不同的變形。
+每個元件及元素會有不同的變形需求來適應各種使用時機。
 
 <!-- Components may have variants. Elements may have variants, too. -->
 
 ![](images/component-modifiers.png)
 
 ## 變形命名
-為變形類別命名時，以破折號(`-`)作為前綴詞。
+
+為變形類別命名時，皆以破折號(`-`)作為前綴詞。
 
 <!-- Classnames for variants will be prefixed by a dash (`-`). -->
 
 ~~~scss
 .like-button {
-  &.-wide { /* ... */ }
-  &.-short { /* ... */ }
-  &.-disabled { /* ... */ }
+	&.-wide { /* ... */ }
+	&.-short { /* ... */ }
+	&.-disabled { /* ... */ }
 }
 ~~~
 
 ## 元素變形
+
 元素變形範例。
 
 <!-- Elements may also have variants. -->
 
 ~~~scss
 .shopping-card {
-  > .title { /* ... */ }
-  > .title.-small { /* ... */ }
+	> .title { /* ... */ }
+	> .title.-small { /* ... */ }
 }
 ~~~
 
 ## 前綴詞
-建議以破折號(-)作為變形類別的前綴詞。
+
+建議以破折號(`-`)作為變形類別的前綴詞。
 
 <!-- Dashes are the preferred prefix for variants. -->
 
-* 避免與一般元素混淆。
+* 這可以避免與一般元素混淆。
 * CSS 類別可以以破折號 `_` 或底線 `-` 作為字頭命名。
-* 破折號比底線好打一些。
+* 但破折號比底線好打一些。
 * 這類似於 UNIX 指令 (`gcc -O2 -Wall -emit-last`)。
 
 <!--

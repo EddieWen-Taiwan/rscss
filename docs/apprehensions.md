@@ -4,7 +4,7 @@
 
 <!-- Some people may have apprehensions to these conventions, such as: -->
 
-#### 但破折號糟透了
+#### 破折號糟透了
 
 <!-- "But dashes suck" -->
 

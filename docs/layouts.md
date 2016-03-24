@@ -33,25 +33,25 @@ If you need to define these, try to define them in whatever context they will be
 
 ~~~css
 .article-list {
-  & {
-    @include clearfix;
-  }
+	& {
+		@include clearfix;
+	}
 
-  > .article-card {
-    width: 33.3%;
-    float: left;
-  }
+	> .article-card {
+		width: 33.3%;
+		float: left;
+	}
 }
 
 .article-card {
-  & { /* ... */ }
-  > .image { /* ... */ }
-  > .title { /* ... */ }
-  > .category { /* ... */ }
+	& { /* ... */ }
+	> .image { /* ... */ }
+	> .title { /* ... */ }
+	> .category { /* ... */ }
 }
 ~~~
 
-該如何定義佈局外的 `margin`？使用 Helper
+該如何定義佈局外的 `margin`？使用輔助類別(Helper)
 [Continue →](helpers.md)
 
 <!-- How do you apply margins outside a layout? Try it with Helpers. -->
