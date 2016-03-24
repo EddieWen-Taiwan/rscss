@@ -1,33 +1,37 @@
-# Other resources
+# 其他資源
 
  * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") is a nice complement to any rscss structure.
  * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") is a work-in-progress document for structuring JavaScript on basic sites.
 
-Other solutions
----------------
+相似解決方案
+----
 
 ### BEM
 [BEM] is nice, but some may be irked at its unconventional syntax. RSCSS pretty much follows BEM conventions, only with a different syntax.
 
-```html
+~~~html
 <!-- BEM -->
 <form class='site-search site-search--full'>
   <input  class='site-search__field' type='text'>
   <button class='site-search__button'></button>
 </form>
-```
+~~~
 
-```html
+~~~html
 <!-- rscss -->
 <form class='site-search -full'>
   <input  class='field' type='text'>
   <button class='button'></button>
 </form>
-```
+~~~
 
-## Terminologies
+## 專用術語
 
-The same concepts exist in similar ways in other CSS structuring ideologies.
+<!-- Terminologies -->
+
+在不同的解決方案中，都有著類似的概念存在，下表是各資源的比較：
+
+<!-- The same concepts exist in similar ways in other CSS structuring ideologies. -->
 
 | RSCSS     | BEM      | SMACSS        |
 | ---       | ---      | ---           |
