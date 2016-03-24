@@ -54,7 +54,4 @@
 如何處理複雜的元素架構？使用"巢狀(Nest)"結構
 [Continue →](nested-components.md)
 
-<!--
-How do you deal with complex elements? Nest them.
-[Continue →](nested-components.md)
--->
+<!-- How do you deal with complex elements? Nest them. -->
