@@ -1,6 +1,6 @@
 # 目錄
 
-- [rscss](../README.md)
+- [rscss 繁中翻譯](../README.md)
 - **元件 (Components)**
   - [元件 (Components)](components.md)
   - [元素 (Elements)](elements.md)
