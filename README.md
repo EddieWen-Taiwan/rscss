@@ -33,7 +33,7 @@ Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into th
 -->
 
 開始學習"元件(Components)"
-[Continue →](docs/components.md)
+[Continue →](docs/components.md) / [Wiki →](https://github.com/EddieWen-Taiwan/rscss/wiki)
 
 <!-- Let's get started by learning about components. -->
 
