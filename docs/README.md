@@ -13,5 +13,5 @@
 - **Notes**
   - [陷阱 (Pitfalls)](pitfalls.md)
   - [擔憂 (Apprehensions)](apprehensions.md)
-  - [Other resources](other-resources.md)
+  - [其他資源 (Other resources)](other-resources.md)
 - [Summary](summary.md)
