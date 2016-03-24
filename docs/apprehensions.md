@@ -1,20 +1,34 @@
-# Apprehensions
+# 擔憂 (Apprehensions)
 
-Some people may have apprehensions to these conventions, such as:
+可能有些人會對於前面的一些規範有些疑慮，如：
 
-#### "But dashes suck"
+<!-- Some people may have apprehensions to these conventions, such as: -->
 
+#### 但破折號糟透了
+
+<!-- "But dashes suck" -->
+
+你可以不使用破折號，而是以其他字符取代，只要保持一致的邏輯即可。
+
+<!--
 You're free to omit them and just use regular words, but keep the rest of the ideas in place (components, elements, variants).
+-->
 
-#### "But I can't think of 2 words!"
+#### 但我想不到兩個詞的組合
 
-Some components will only need one word to express their purpose, such as `alert`. In these cases, consider that using some suffixes will make it clearer that it's a block-level element:
+<!--"But I can't think of 2 words!"-->
 
-  * `.alert-box`
-  * `.alert-card`
-  * `.alert-block`
+有些元件只需要一個詞就可以表達它們的意思了，像是：`alert`。遇上這種情況，可以在後面加上一些簡單的後綴詞，若是區塊元件可以使用：
 
-  Or for inlines:
+<!-- Some components will only need one word to express their purpose, such as `alert`. In these cases, consider that using some suffixes will make it clearer that it's a block-level element: -->
 
-  * `.link-button`
-  * `.link-span`
+* `.alert-box`
+* `.alert-card`
+* `.alert-block`
+
+或者是行內元件：
+
+<!-- Or for inlines: -->
+
+* `.link-button`
+* `.link-span`
