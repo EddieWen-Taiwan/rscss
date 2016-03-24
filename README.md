@@ -1,4 +1,4 @@
-<!-- ##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)** -->
+##### 前往 **[GitBook](https://eddiewen.gitbooks.io/rscss/content/)** 享受更好的閱讀體驗
 
 # rscss 繁中翻譯
 
