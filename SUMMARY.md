@@ -1,16 +1,16 @@
 # 目錄
 
 - [rscss 繁中翻譯](../README.md)
-- **元件 (Components)**
+- 元件 (Components)
   - [元件 (Components)](components.md)
   - [元素 (Elements)](elements.md)
   - [變形 (Variants)](variants.md)
   - [巢狀元件 (Nested Components)](nested-components.md)
   - [佈局 (Layouts)](layouts.md)
   - [輔助類別 (Helpers)](helpers.md)
-- **結構 (Structure)**
+- 結構 (Structure)
   - [CSS 結構 (Structure)](css-structure.md)
-- **附註 (Notes)**
+- 附註 (Notes)
   - [陷阱 (Pitfalls)](pitfalls.md)
   - [擔憂 (Apprehensions)](apprehensions.md)
   - [其他資源 (Other resources)](other-resources.md)
