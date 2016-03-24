@@ -4,7 +4,7 @@
 
 > Styling CSS without losing your sanity
 
-這是一套有邏輯系統的 CSS 樣式表結構，能夠幫助你建構出一份易於維護修改的 CSS。
+這是一套有系統的 CSS 樣式表邏輯，能夠幫助你建構出一份易於維護修改的 CSS。
 
 <!--
 Reasonable System for CSS Stylesheet Structure.<br>
