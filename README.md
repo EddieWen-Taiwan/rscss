@@ -4,7 +4,7 @@
 
 > Styling CSS without losing your sanity
 
-這是一套有系統的 CSS 樣式表邏輯，能夠幫助你建構出一份易於維護修改的 CSS。
+這是一套有系統的 CSS 樣式表邏輯，能夠幫助你撰寫出一份易於維護修改的 CSS。
 
 <!--
 Reasonable System for CSS Stylesheet Structure.<br>
@@ -18,7 +18,7 @@ A set of simple ideas to guide your process of building maintainable CSS.
 
 * 這個 CSS 類別的作用是...？
 * 現在還有用到這 CSS 類別嗎？
-* 如果這時再新增一個 `green` 類別，會發生衝突嗎？
+* 如果現在再新增一個 `green` 類別，會發生衝突嗎？
 
 **rscss** 正是為了解決以上問題而發展出來的，它並不是一個 CSS 框架，它是一套有跡可循的邏輯系統，幫助開發者建立出個可擴增維護的網頁及應用程式。
 
