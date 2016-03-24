@@ -11,7 +11,7 @@
 - **Structure**
   - [CSS 結構](css-structure.md)
 - **Notes**
-  - [Pitfalls](pitfalls.md)
+  - [陷阱 (Pitfalls)](pitfalls.md)
   - [Apprehensions](apprehensions.md)
   - [Other resources](other-resources.md)
 - [Summary](summary.md)
