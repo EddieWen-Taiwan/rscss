@@ -4,7 +4,7 @@
 * 元件下使用 **元素(elements)**，僅用一個字命名(`.blog-post > .title`)。
 * 命名 **變形(variants)** 時，皆以破折號作為前綴詞(`.shop-banner.-with-icon`)。
 * 元件可以以巢狀組成。
-* Remember you can extend to make things simple
+* 記得用 @extend(sass) 讓你的 CSS 更簡潔。
 
 <!--
 * Think in **components**, named with 2 words (`.screenshot-image`)
