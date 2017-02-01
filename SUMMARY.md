@@ -14,3 +14,5 @@
   - [擔憂 (Apprehensions)](apprehensions.md)
   - [其他資源 (Other resources)](other-resources.md)
 - [總結 (Summary)](css-summary.md)
+- 外部資源 (External resources)
+  - [其他語言 (Translations)](translations.md)
