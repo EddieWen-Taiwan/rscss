@@ -1,8 +1,9 @@
-# Translations
+# 其他語言
 
-Some unofficial translations are available courtesy of the community.
+一些來自善意社群的非官方翻譯
 
-- Chinese: [1](https://eddiewen.gitbooks.io/rscss/content/), [2](https://github.com/suhaotian/rscss-zh-cn)
-- [Thai](http://rscss.in.th/)
-- [Japanese](http://qiita.com/kk6/items/760efba180ec526903db)
-- [Spanish](https://github.com/jameskolce/rscss-es)
+- [英文](http://rscss.io)
+- [簡中](https://github.com/suhaotian/rscss-zh-cn)
+- [泰文](http://rscss.in.th/)
+- [日文](http://qiita.com/kk6/items/760efba180ec526903db)
+- [西班牙文](https://github.com/jameskolce/rscss-es)
